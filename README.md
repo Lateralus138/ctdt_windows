@@ -49,7 +49,7 @@ All about this program and project&#46;
 <details>
   <summary>Download or build&#46;</summary>
   <p>
-  You can fork this repository and build yourself or you can download it at the current <a src="https://github.com/Lateralus138/ctdt_windows/releases">Releases</a> page&#46;
+  You can fork this repository and build yourself or you can download it at the current <a href="https://github.com/Lateralus138/ctdt_windows/releases">Releases</a> page&#46;
   </p>
 </details>
 
