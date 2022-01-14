@@ -4,21 +4,7 @@
 
 Change a console&#39;s title to the current time and date on a loop&#46; Windows version&#46;
 
----
-
-## Disclaimer
-
-<details>
-    <summary>
-    Coming soon
-    </summary>
-    <p>
-        This is a test&#46; Any files found here are not the final files and no promises can be made as to when this will be in production&#44; but it should be fairly soon&#46;
-    </p>
-</details>
-
 - [Console Title Date Time for Windows](#console-title-date-time-for-windows)
-  - [Disclaimer](#disclaimer)
   - [About](#about)
     - [Description](#description)
     - [Motivation](#motivation)
