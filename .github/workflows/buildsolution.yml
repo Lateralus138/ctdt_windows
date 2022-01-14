@@ -37,7 +37,7 @@ jobs:
         New-Item -ItemType Directory -Force -Path '..\docs\json'
         Write-Output "$ctdt_x86_md5_text" > ..\docs\json\ctdt_x86_md5.json
         $file = "..\docs\json\ctdt_x86_md5.json"
-        $hash = $(Get-FileHash "release/ctdt-x86.exe" -Algorithm MD5).Hash
+        $hash = $(Get-FileHash "..\release\ctdt-x86.exe" -Algorithm MD5).Hash
         ((Get-Content -path $file -Raw) -replace 'PLACEHOLDER',$hash) | Set-Content -Path "$file"
         $ctdt_x64_md5_text = @'
         {
@@ -52,7 +52,7 @@ jobs:
         '@
         Write-Output "$ctdt_x64_md5_text" > ..\docs\json\ctdt_x64_md5.json
         $file = "..\docs\json\ctdt_x64_md5.json"
-        $hash = $(Get-FileHash "release/ctdt-x64.exe" -Algorithm MD5).Hash
+        $hash = $(Get-FileHash "..\release\ctdt-x64.exe" -Algorithm MD5).Hash
         ((Get-Content -path $file -Raw) -replace 'PLACEHOLDER',$hash) | Set-Content -Path "$file"
     - name: Push MD5
       run: |
