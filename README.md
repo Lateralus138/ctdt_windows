@@ -17,6 +17,7 @@ Change a console&#39;s title to the current time and date on a loop&#46; Windows
     - [Current X64 MD5](#current-x64-md5)
   - [Media](#media)
   - [LICENSE](#license)
+  - [Support Me If You Like](#support-me-if-you-like)
 
 ---
 
